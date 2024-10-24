@@ -1,0 +1,8 @@
+JDBC --> Mysql Connector
+Hibernate --> Hibernate Core relocation , Mysql Connector
+Servlets --> Servlet API Dependency 
+Spring core ---> Spring context, 
+Spring MVC ---> Spring web MVC , Hiberanate Core relocation , MYsql Connector , Jakarta standard tag library API (if this doen't work along with that add implementation also --> jakarta
+                  standard tag library implementation)
+
+Srping Boot --> Spring web , Devtools , Spring data JPA , Mysql Connector 
