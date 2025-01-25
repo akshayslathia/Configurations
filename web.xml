@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="2.5" xmlns="http://JAVA.sun.com/xml/ns/javaee"
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-
-  <display-name>Archetype Created Web Application</display-name>
-  <servlet>
-		<servlet-name>MyMvc</servlet-name>
-		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>LoanType</servlet-name>
+		<servlet-class>sendredirect.LonaTypeInfo</servlet-class>
 	</servlet>
-		
 	<servlet-mapping>
-		<servlet-name>MyMvc</servlet-name>
-		<url-pattern>/</url-pattern>
+		<servlet-name>LoanType</servlet-name>
+		<url-pattern>/loan</url-pattern>
 	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>Loan.html</welcome-file>
+	</welcome-file-list>
 </web-app>
