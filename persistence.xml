@@ -4,14 +4,14 @@
   http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
 	version="2.1">
 
-	<persistence-unit name="vikas">
+	<persistence-unit name="akshay">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<!-- <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode> -->       <!-- for caching -->  
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://localhost:3306/****" />
+				value="jdbc:mysql://localhost:3306/****?createDatabaseIfNotExist=true" />
 			<property name="javax.persistence.jdbc.user"
 				value="*****" />
 			<property name="javax.persistence.jdbc.password"
